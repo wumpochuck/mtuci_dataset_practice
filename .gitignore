@@ -1,2 +1,5 @@
+# Ignore MACOS system files
 .DS_Store
-./z_dump.pcapng
+
+# Ignore Wireshark dump files
+z_dump.pcapng
