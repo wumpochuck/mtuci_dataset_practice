@@ -257,9 +257,9 @@ def process_pcap(pcap_file, output_csv=None, output_excel=None, save_interval=10
     print(f"Данные сохранены в {output_csv if output_csv else ''} {output_excel if output_excel else ''}")
 
 if __name__ == "__main__":
-    pcap_file = '../../z_dump.pcapng'
-    output_csv = '../datasets/dataset.csv'   # или None, если не нужен CSV
-    output_excel = '../datasets/dataset.xlsx'  # или None, если не нужен Excel
+    pcap_file = '../z_dump.pcapng'
+    output_csv = '../datasets/z_dataset.csv'   # или None, если не нужен CSV
+    output_excel = '../datasets/z_dataset.xlsx'  # или None, если не нужен Excel
     save_interval = 1000
 
     process_pcap(pcap_file, output_csv=output_csv, output_excel=output_excel, save_interval=save_interval)
